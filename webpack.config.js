@@ -21,7 +21,7 @@ module.exports = {
         contentBase: './dist',
         overlay: true,
         hot: true,
-        port: 80
+        port: 9000
     },
     plugins: [
         new CopyWebpackPlugin(['index.html']),
